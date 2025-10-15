@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+image_gen_env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.coverage.*
+
+# Log files
+*.log
+
+# Output directories (these can be regenerated)
+outputs/
+test_output/
+example_output/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration files that might contain sensitive information
+.env
+config.ini
